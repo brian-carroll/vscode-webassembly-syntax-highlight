@@ -98,7 +98,7 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.wasm",
-					"match": "\\\\."
+					"match": "\\\\[tnr\"'\\\\]|\\\\[0-9a-fA-F]{2}"
 				}
 			]
 		},
