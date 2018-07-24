@@ -49,10 +49,6 @@
 				{
 					"name": "variable.parameter.other.wasm",
 					"match": "\\$[\\d\\w!#$%&'*+\\-./:<=>?@\\\\^_`|~]*"
-				},
-				{
-					"name": "variable.parameter.wasm",
-					"match": "\\b(param)\\b"
 				}
 			]
 		},
@@ -91,7 +87,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.wasm",
-					"match": "\\b(module|type|import|export|memory|table|start|result|elem|data)\\b"
+					"match": "\\b(module|type|import|export|memory|table|start|result|param|elem|data)\\b"
 				}
 			]
 		},
