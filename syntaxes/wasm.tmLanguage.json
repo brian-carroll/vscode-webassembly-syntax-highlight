@@ -56,7 +56,7 @@
 			"patterns": [
 				{
 					"name": "constant.numeric.wasm",
-					"match": "[\\d]"
+					"match": "\\d+(\\.\\d+)?"
 				}
 			]
 		},
