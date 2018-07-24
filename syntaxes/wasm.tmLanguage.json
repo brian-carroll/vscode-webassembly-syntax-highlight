@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "variable.parameter.other.wasm",
-					"match": "(\\$){1}([\\w\\d]*)"
+					"match": "\\$[\\d\\w!#$%&'*+\\-./:<=>?@\\\\^_`|~]*"
 				},
 				{
 					"name": "variable.parameter.wasm",
