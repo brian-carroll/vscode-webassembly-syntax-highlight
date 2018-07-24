@@ -87,7 +87,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.wasm",
-					"match": "\\b(module|type|import|export|memory|table|start|result|param|elem|data)\\b"
+					"match": "\\b(module|type|import|export|memory|table|start|result|param|elem|data|global)\\b"
 				}
 			]
 		},
@@ -150,7 +150,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.less.wasm",
-					"match": "\\b(nop|block|loop|if|else|br|br_if|br_table|end|return|drop|select|unreachable|local)\\b"
+					"match": "\\b(nop|block|loop|if|then|else|br|br_if|br_table|end|return|drop|select|unreachable|local)\\b"
 				}
 			]
 		},
